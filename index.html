@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator | frontendmentor</title>
+    <link rel="stylesheet" href="style.css"></head>
+<body>
+    <div class="container">
+        <form class="date-input">
+            <div class="date-input">
+                <label for="day">day</label>
+                <input type="number" id="day" placeholder="DD"/>
+            </div>
+
+            <div class="month-input">
+                <label for="month">month</label>
+                <input type="number" id="month" placeholder="MM"/>
+            </div>
+
+            <div class="year-input">
+                <label for="year">year</label>
+                <input type="number" id="year" placeholder="YYYY"/>
+            </div>
+            <!-- <label>
+            <div class="submit-btn">
+                <input type="submit" onclick="calc()"/>
+                <svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg>
+            </div>
+        </label> -->
+
+            <div class="submit-btn" onclick="calc()" >
+                <svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg>            </div>
+        </form>
+
+        <div class="age-hero">
+            <h1>
+                <span id="year-el">--</span> years<br>
+                <span id="month-el">--</span> months<br>
+                <span id="days-el">--</span> days
+            </h1>
+
+        </div>
+    </div>
+
+    <div class="credits">
+        Developed by <span class="name"><a href="https:/www.instagram.com/asn.shif">@asn.shif</a></span> for learning purpose.
+        <br>Still in progression.
+    </div>
+</body>
+
+<script src="script.js"></script>
+</html>

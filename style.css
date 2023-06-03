@@ -1,0 +1,149 @@
+body{
+    margin:0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height:100vh;
+    font-family:'poppins', sans-serif;
+    background-color: hsl(0, 0%, 94%) ;
+
+}
+*{
+    box-sizing:border-box;
+}
+.container{
+    background-color: white;
+    border-radius: 1rem 1rem 40% 01rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* gap:2rem; */
+    align-items: start;
+    padding:3rem;
+
+}
+form{
+    display: flex;
+    justify-content: space-between;
+    gap:2rem;
+    padding:1rem 0;
+    border-bottom: 1px solid hsl(0, 0%, 86%) ;
+}
+input{
+    width:6rem;
+    border: 1px solid hsl(0, 0%, 86%);
+    padding: 0.5rem;
+    border-radius: 2px;;
+}
+input::placeholder{
+    text-transform: uppercase;
+    font-family: 'poppins';
+    font-weight: 700;
+    color: hsl(0, 1%, 44%) ;
+    font-size: 1rem;;
+}
+label{
+    display: block;
+}
+
+h1{
+    font-size:3.5rem;
+    font-weight: 800;
+    font-style: italic;;
+}
+h1 span{
+    color: hsl(259, 100%, 65%);
+}
+
+.submit-btn {
+    background-color: hsl(259, 100%, 65%);
+    z-index: 9;
+    border-radius: 100%;
+    padding:1rem;
+    width:3.5rem;
+    height: 3.5rem;
+    position: relative;
+    top:3rem;
+}
+
+.submit-btn svg{
+    height: 1.5rem;
+    width:1.5rem;
+}
+
+.submit-btn:hover{
+    background-color: black;
+}
+
+label{
+    font-size:0.75rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+
+}
+
+input[type=number]{
+    font-family: inherit;
+    font-weight: 700;
+    font-size: inherit;
+}
+
+.age-hero{
+    display: block;
+}
+
+input[type=submit]{
+    display:none;
+}
+
+.error-message{
+    margin:0;
+    font-size: 0.6rem;
+    color: hsl(0, 100%, 67%);
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+.error-message{
+    display: none;
+}
+
+.credits{
+    position: absolute;
+    margin: 0 auto;
+    text-align: center;
+    bottom:10px;
+    display:block;
+    font-size: 0.6rem;
+    font-weight: 500;
+    font-style: italic;
+    font-family: inherit;
+    width:50%;
+    color:hsl(259, 100%, 65%)
+}
+
+.name{
+    color:rgb(0, 0, 0)
+}
+
+a{
+    text-decoration: none;
+}
+
+.a:hover{
+    color:rgba(0, 0, 0, .15)
+}
+
+/* :required{
+    background-color: blue;
+} */
+
+@media screen and (max-width:750px) {
+
+    html{
+        font-size: 9px;
+    }
+    
+}
