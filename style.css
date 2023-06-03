@@ -23,6 +23,13 @@ body{
     padding:3rem;
 
 }
+
+h2{
+    font-size:1rem;
+    color: black;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+}
 form{
     display: flex;
     justify-content: space-between;

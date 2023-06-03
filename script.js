@@ -28,4 +28,8 @@ function calc(){
     document.getElementById("month-el").textContent=ageMonth;
     document.getElementById("days-el").textContent=ageDay;
 
+    if (ageDay==1){
+        document.getElementById("day-text")="day";
+    }
+
 }
